@@ -1,0 +1,24 @@
+.fieldContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+
+  .MuiTextField-root {
+    flex: 1;
+    margin-right: 10px;
+  }
+
+  .MuiButton-root {
+    padding: 10px 20px;
+    background-color: #fc025e;
+    color: rgb(234, 11, 11);
+    &:hover {
+      margin-top: 10px;
+      background-color: #9ebd02;
+    }
+  }
+
+  button {
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,33 @@
+
+
+.tableContainer {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: calc(100vh - 80px); // Высота с учетом поиска и заголовка
+  overflow: auto; // Прокрутка, если нужно
+  position: relative;
+}
+
+.tableHeader {
+  background-color: #fff;
+
+  .MuiTableCell-root {
+    font-weight: bold;
+  }
+}
+
+.tableRow {
+  cursor: pointer;
+  &:hover {
+    background-color: #fff;
+  }
+}
+
+.tablePagination {
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+}
